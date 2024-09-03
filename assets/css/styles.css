@@ -658,3 +658,23 @@ img{
     column-gap: 5rem;
   }
 }
+
+
+.paginationjs {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.paginationjs .paginationjs-pages li.active>a{
+  background-color: #1967d2;
+}
+
+.paginationjs-pages li.disabled {
+  color: #ccc;
+  cursor: not-allowed;
+}
+
+.paginationjs .paginationjs-pages li.active{
+  cursor: not-allowed;
+}
